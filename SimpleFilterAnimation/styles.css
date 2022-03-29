@@ -1,0 +1,16 @@
+/* Import font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* General styles */
+body{
+    background-color: #2b3153;
+}
+/* General styles end */
+.blob{
+   animation: rotate-hue 2s alternate infinite;
+}
+
+@keyframes rotate-hue {
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
