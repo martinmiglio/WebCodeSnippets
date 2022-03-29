@@ -14,3 +14,14 @@ body{
         filter: hue-rotate(360deg);
     }
 }
+/*
+First, select the element you want to animate.
+In this situation, a colorful image.
+You will now create a keyframe animation that has one stop at 100%.
+Inside of this stop, add in the filter property, this will allow you to add graphical effects to an element.
+Then, use the hue-rotate function to apply a hue rotation effect on the image.
+This function uses angles, so specify a number in degrees. Finally, add the animation to your element.
+
+Final notes: If you wish to get different results,
+play around with the values such as adding more stops or rotating the hue with both positive and negative values.
+*/
