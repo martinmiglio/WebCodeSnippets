@@ -49,7 +49,8 @@ body{
 }
 
 
-/*Explanation
+/*
+Explanation
 
 First, create a button with the desired styles.
 Since we are going to be using pseudo elements,
@@ -65,4 +66,5 @@ Then use the shorthand border-width property to target the top and left width fo
 
 Finally, select both buttons once more and specify that you want a :hover state noting that you want the styles to apply to the pseudo elements.
 We use the calc() function to grow the elements by 100%, but since we offset the initial position we have to compensate for that so we add an extra 27px.
-Note: if you create a smaller or larger button, this value of 27px will change, so play around with the numbers until it aligns properly.*/
+Note: if you create a smaller or larger button, this value of 27px will change, so play around with the numbers until it aligns properly.
+*/
