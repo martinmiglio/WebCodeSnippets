@@ -36,5 +36,28 @@ body{
     to {
         transform: rotate(360deg);
     }
-
 }
+
+/*
+Explanation
+
+Step 01, select the spinner and apply a width & height of your choice.
+Then make the spinner round by giving it a border radius of 50%.
+Since we will create pseudo-elements with the position of absolute, apply a position of relative to the spinner.
+
+Step 02, select the spinner ::before & ::after, since they share those styles in common.
+We want the same roundness, so we inherit the border radius of 50% from the parent.
+
+Step 03, select the pseudo elements individually, starting with the ::before.
+Now, apply a width & height of 100%. Then set a background color of your choice.
+
+Step 04, select the ::after pseudo element and apply a width & height that is slightly smaller.
+This will determine the thickness of the ring.
+Make sure that the background color of this element matches the overall background color of where you place the spinner.
+This way the spinner blends in except for the outer ring.
+What you do now is position this element in the middle both vertically and horizontally, hence, the top, left, and translation values.
+
+Step 05, create a keyframe animation with a single stop set to ‘to’.
+'To' is a shorter way of saying ‘100%’ (the ending state); add a rotation of 360 degrees.
+Lastly, apply the animation to the ::before pseudo element and make sure it’s linear and infinite.
+*/
